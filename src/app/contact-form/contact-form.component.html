@@ -1,0 +1,18 @@
+<section class="contact-form">
+  <h3>Contact Us</h3>
+  <form (ngSubmit)="submit()" #contactForm="ngForm">
+    <div>
+      <label for="name">Name</label>
+      <input id="name" name="name" ngModel required />
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input id="email" name="email" ngModel required type="email" />
+    </div>
+    <div>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" ngModel required></textarea>
+    </div>
+    <button type="submit" [disabled]="!contactForm.form.valid">Send</button>
+  </form>
+</section>

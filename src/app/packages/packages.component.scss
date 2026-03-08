@@ -1,0 +1,35 @@
+.packages {
+  padding: 2rem 1rem;
+  background: #F7EEED;
+  text-align: center;
+}
+
+.package-list {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.package-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.package-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.package-card h4 {
+  margin: 0 0 0.5rem 0;
+  color: var(--color-taupe);
+}
+
+.package-card p {
+  margin: 0;
+  color: var(--color-text-main);
+}
