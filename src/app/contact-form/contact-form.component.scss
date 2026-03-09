@@ -1,9 +1,10 @@
 .contact-form {
-  margin: 2rem 1rem;
+  margin: 4rem 1rem;
   text-align: center;
 }
 
 .contact-form form {
+  margin: 1.1rem;
   display: inline-block;
   text-align: left;
   max-width: 400px;
@@ -27,9 +28,13 @@
 
 .contact-form button {
   padding: 0.75rem 1.5rem;
-  background: -primary-gold;
+  background: var(--color-primary-gold);
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
 }

@@ -1,5 +1,5 @@
 .site-footer {
-  background: #f7f5f0;
+  background: var(--color-blush-light);
   color: var(--color-text-main);
   padding: 2rem 1rem 1rem;
   font-size: 0.95rem;
@@ -37,8 +37,8 @@
 .contact-item .icon.address::before { content: '\1F4CD'; }
 
 .footer-bottom {
-  background: #5C4033;
-  color: white;
+  background: var(--color-text-main);
+  color: var(--color-blush-light);
   padding: 2rem 1rem;
   text-align: center;
 }

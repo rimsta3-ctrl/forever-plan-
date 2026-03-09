@@ -1,7 +1,7 @@
 .about-section {
   padding: 8rem 2rem;
   background-color: #fff;
-  color: #333;
+  color: var(--color-text-main);
 }
 
 .about-section .container {
@@ -20,8 +20,8 @@
 .about-content .subtitle {
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 0.8rem;
-  color: #d4af37; /* Gold */
+  font-size: 1rem;
+  color: var(--color-primary-gold); 
   display: block;
   margin-bottom: 1rem;
 }
@@ -36,12 +36,12 @@
 .about-content p {
   font-size: 1rem;
   line-height: 1.6;
-  color: #666;
+  color: var(--color-text-main);
   margin-bottom: 1.5rem;
 }
 
 .about-content em {
-  color: #2c2c2c;
+  color: var(--color-text-main);
   font-weight: 500;
 }
 
@@ -60,13 +60,13 @@
 }
 
 .value-item:hover {
-  border-color: #d4af37;
+  border-color: var(--color-primary-gold);
 }
 
 .value-number {
   font-family: 'Playfair Display', serif;
   font-size: 0.9rem;
-  color: #d4af37;
+  color: var(--color-primary-gold);
   display: block;
   margin-bottom: 0.5rem;
 }
@@ -80,7 +80,7 @@
 
 .value-item p {
   font-size: 0.8rem;
-  color: #777;
+  color: var(--color-text-main);
   line-height: 1.4;
 }
 

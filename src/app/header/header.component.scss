@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: #F7EEED;
+  background: var(--color-blush-light);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 1.5rem 0;
   transition: padding 0.3s ease;
@@ -17,7 +17,6 @@
 @keyframes shrink-header {
   to {
     padding: 0.5rem 0;
-    background: rgba(247, 238, 237, 0.95);
   }
 }
 
